@@ -1,42 +1,46 @@
-# Buzz Chat - Chat Web Application
-Buzz Chat is a real-time chat web application built using React.js, Tailwind CSS, and Firebase for storage and authentication. The platform offers a seamless user experience, allowing users to register, search for other users, and chat in real time. With features like secure authentication, the ability to send text messages and images, and an intuitive interface, Buzz Chat provides a reliable platform for users to communicate effortlessly.
+# Gemini Clone Web Application
+The Gemini Clone is a Real-Time Web Application, inspired by Google Gemini, built using React.js and the Gemini API. This app offers advanced AI-powered prompt functionality with a sleek, modern user interface. Users can interact with AI in real time and keep track of prompt history in the sidebar for easy reference.
 
 ## 🧐Features
-1. **User Registration and Login:** Secure user authentication using Firebase Authentication, allowing users to sign up and log in with ease.
-2. **Search Users:** Users can search for other registered users on the platform and initiate conversations.
-3. **Real-time Messaging:** Send and receive messages instantly, ensuring a smooth and responsive chat experience.
-4. **Image Sharing:** Users can share images within chats in addition to text messages, making conversations more interactive.
-5. **Responsive Design:** Fully optimized for both desktop and mobile devices, providing a smooth experience across all platforms.
-6. **Firebase Integration:** Firebase is used for both authentication and data storage, ensuring that user data is stored securely and conversations are updated in real time.
-   
+1. **Real-Time AI Prompting:** Users can interact with the app's AI in real time, receiving instant feedback and results.
+
+2. **Prompt History:** A sidebar is available that logs all previous AI prompts, allowing users to quickly revisit and reuse past inputs.
+
+3. **Responsive Design:** The interface is fully optimized for desktop and mobile, ensuring a smooth experience on any device.
+
+4. **Enhanced User Interface:** The application features a more intuitive, user-friendly design, improving the overall user experience.
+
 <hr>
 
 # Getting Started
 ## 🚀Installation
 - Clone the repository and navigate to the project directory:
-```bash
-git clone https://github.com/SOURABH2809/Chat_Web_App
+```
+git clone https://github.com/SOURABH2809/Gemini-Clone
+```
+- Change the working directory:
+```
+cd Gemini-Clone
 ```
 
 **Install Dependencies**
-- Open the project in Visual Studio Code.
-- Right-click on the sidebar and select Open in Integrated Terminal.
-- Run the following command to install the required dependencies:
-```bash
+- Run the following command in the terminal:
+```
 npm install
 ```
-***Setup Firebase***
-- Create an account on Firebase.
-- Set up Firebase Authentication and Firestore database.
-- Copy the Firebase config object from the Firebase console and paste it into the **firebase.js** file in your project.
 
-**Run the project**
-```bash
+**Configure the Gemini Api**
+- Obtain your API key from the Gemi API provider.
+- Open the gemini.js file in your project and replace the placeholder with your API key.
+
+
+**Run the application**
+- Start the Application by running:
+```
 npm run dev
 ```
-
-**Access the Application**
-- Open http://localhost:5173 in your browser to access the chat application.
+**Access the application**
+- Open http://localhost:5173 in your browser to access the application.
 
 <hr>
 <p align="center">
