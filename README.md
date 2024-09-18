@@ -1,14 +1,13 @@
-# Gemini Clone Web Application
-The Gemini Clone is a Real-Time Web Application, inspired by Google Gemini, built using React.js and the Gemini API. This app offers advanced AI-powered prompt functionality with a sleek, modern user interface. Users can interact with AI in real time and keep track of prompt history in the sidebar for easy reference.
+# Buzz Chat - Chat Web Application
+Buzz Chat is a dynamic real-time chat application built using React.js, Tailwind CSS, and Firebase for secure authentication and storage. This platform offers users a seamless experience for registering, searching for other users, and chatting in real time. With features like text and image messaging, user search functionality, and a responsive design, Buzz Chat ensures smooth and interactive conversations.
 
 ## 🧐Features
-1. **Real-Time AI Prompting:** Users can interact with the app's AI in real time, receiving instant feedback and results.
-
-2. **Prompt History:** A sidebar is available that logs all previous AI prompts, allowing users to quickly revisit and reuse past inputs.
-
-3. **Responsive Design:** The interface is fully optimized for desktop and mobile, ensuring a smooth experience on any device.
-
-4. **Enhanced User Interface:** The application features a more intuitive, user-friendly design, improving the overall user experience.
+1. **User Registration and Login:** Secure authentication using Firebase Authentication, allowing users to sign up and log in effortlessly.
+2. **User Search:** Find and connect with other registered users on the platform.
+3. **Real-time Messaging:** Instantly send and receive messages for a smooth, responsive chat experience.
+4. **Image Sharing:** Share images alongside text messages, making chats more engaging and interactive.
+5. **Responsive Design:** Fully optimized for desktop and mobile devices, ensuring an intuitive and consistent user experience across all platforms.
+6. **Firebase Integration:** Firebase is used for both authentication and real-time data storage, ensuring secure handling of user data and instant updates to conversations.
 
 <hr>
 
@@ -16,11 +15,8 @@ The Gemini Clone is a Real-Time Web Application, inspired by Google Gemini, buil
 ## 🚀Installation
 - Clone the repository and navigate to the project directory:
 ```
-git clone https://github.com/SOURABH2809/Gemini-Clone
-```
-- Change the working directory:
-```
-cd Gemini-Clone
+git clone https://github.com/SOURABH2809/Chat_Web_App
+cd Chat_Web_App
 ```
 
 **Install Dependencies**
@@ -28,13 +24,12 @@ cd Gemini-Clone
 ```
 npm install
 ```
+**Set Up Firebase:**
+- Create an account on Firebase.
+- Set up Firebase Authentication and Firestore database.
+- Copy the Firebase config object from the Firebase console and paste it into the firebase.js file in your project.
 
-**Configure the Gemini Api**
-- Obtain your API key from the Gemi API provider.
-- Open the gemini.js file in your project and replace the placeholder with your API key.
-
-
-**Run the application**
+**Run the Project**
 - Start the Application by running:
 ```
 npm run dev
